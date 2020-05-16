@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<<<<<<< HEAD
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 3adf345daa5fa0c5301ab4e4f53c9600bbe7d547
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -7,6 +12,31 @@
         android:id="@+id/choose_area_fragment"
         android:name="com.coolweather.android.ChooseAreaFragment"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"/>
 
 </FrameLayout>
+=======
+        android:layout_height="match_parent" />
+</FrameLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 9d4ce5daec21a506fc4336bbe945b7f6d380f284
+>>>>>>> 3adf345daa5fa0c5301ab4e4f53c9600bbe7d547

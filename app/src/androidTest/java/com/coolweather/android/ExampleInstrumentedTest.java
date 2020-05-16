@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.coolweather.android;
+=======
+package com.example.android;
+>>>>>>> 9d4ce5daec21a506fc4336bbe945b7f6d380f284
 
 import android.content.Context;
 
@@ -22,6 +26,10 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
+<<<<<<< HEAD
         assertEquals("com.coolweather.android", appContext.getPackageName());
+=======
+        assertEquals("com.example.coolweather", appContext.getPackageName());
+>>>>>>> 9d4ce5daec21a506fc4336bbe945b7f6d380f284
     }
 }

@@ -1,10 +1,32 @@
 <litepal>
+<<<<<<< HEAD
     <dbname value="cool_weather"/>
     <version value="1"/>
+=======
+<<<<<<< HEAD
+    <dbname value="cool_weather" /> <!-- 指定数据库名 -->
+    <version value="1"/> <!-- 指定数据库版本 -->
+>>>>>>> 3adf345daa5fa0c5301ab4e4f53c9600bbe7d547
     <list>
         <mapping class="com.coolweather.android.db.Province"/>
         <mapping class="com.coolweather.android.db.City"/>
         <mapping class="com.coolweather.android.db.County"/>
     </list>
+<<<<<<< HEAD
 </litepal>
 
+=======
+=======
+    <dbname value="cool_weather"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class='com.coolweather.android.db.Province'/>
+        <mapping class='com.coolweather.android.db.City'/>
+        <mapping class='com.coolweather.android.db.County'/>
+    </list>
+
+>>>>>>> 9d4ce5daec21a506fc4336bbe945b7f6d380f284
+</litepal>
+>>>>>>> 3adf345daa5fa0c5301ab4e4f53c9600bbe7d547
